@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    background-color: grey;
+
+}
+
+#box{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#banner{
+
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 85, 0);
+
+}
+
+#name{
+
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+
+}
+
+#busca{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px bold 'Arial';
+    gap: 20px;
+
+}
+
+input{
+
+    height: 20px;
+    border-radius: 10px;
+    border: 2px black solid;
+    padding: 5px;
+}
+
+
+button{
+
+    padding: 5px;
+
+    background-color: rgb(0, 88, 0);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    font: bold "Arial";
+
+}
+
+.Rick{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+img{
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px white;
+
+}
