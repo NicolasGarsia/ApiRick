@@ -39,7 +39,7 @@ export default function RickAndMorty() {
             <nav id="banner"><h1> Characters Of RickAndMorty </h1> </nav>
         <div>
             <div id="busca">
-            <input  type="text" value={name} name="name" onChange={handleInputChange} />
+            <input  type="text" value={name} name="name" onChange={handleInputChange} placeholder="Digite o personagem..."/>
             <button onClick={handleSearch}>Buscar</button>
             </div>
             {char && (

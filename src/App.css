@@ -30,6 +30,7 @@ body{
     height: 70px;
     width: 100%;
     background-color: rgb(0, 85, 0);
+    box-shadow: 3px 2px 5px black;
 
 }
 
@@ -56,6 +57,7 @@ body{
 
 input{
 
+    width: 50%;
     height: 20px;
     border-radius: 10px;
     border: 2px black solid;
@@ -81,6 +83,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 25px;
 
 }
 
@@ -89,5 +92,50 @@ img{
     border: 2px solid black;
     border-radius: 20px;
     box-shadow: 2px 5px 5px white;
+
+}
+
+@media screen and (max-width:600px) {
+
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+#banner{
+    
+    height: 100px;
+    width: 100%;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+h1{
+
+    font-size: 28px;
+
+}
+
+.Rick{
+
+    margin-top: 20px;
+
+
+}
+
+input{
+
+    width:60%;
+
+}
+
+button{
+
+    width: 20%;
+
+}
 
 }
